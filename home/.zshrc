@@ -87,5 +87,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Base16 Shell
-BASE16_SHELL="$HOME/.config/base16-shell/base16-default.dark.sh"
+BASE16_SHELL="/home/sietse/.config/base16-shell/base16-ashes.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
