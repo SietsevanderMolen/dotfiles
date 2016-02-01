@@ -15,8 +15,14 @@ call plug#begin('.config/nvim/plugged')
     " css/less/sass/html color preview for vim
     Plug 'gorodinskiy/vim-coloresque'
 
-    " better raindom parentheses
+    " better rainbow parentheses
     Plug 'kien/rainbow_parentheses.vim'
+
+    " awesome git support
+    Plug 'tpope/vim-fugitive'
+
+    " show git diff in gutter
+    Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 set nocompatible
